@@ -1,2 +1,1 @@
-# vishnukadaba.dev
-Vishnu Kadaba's Repository
+Vishnu's Personal Portfolio
