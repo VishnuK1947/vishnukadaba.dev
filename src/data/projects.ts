@@ -72,6 +72,14 @@ export const projects: Project[] = [
     achievement: '100+ active users',
   },
   {
+    name: 'Vibe',
+    description:
+      'Vibe provides end-to-end, multi-agent ad generation. From market research to studio-quality video, capture your audience\'s vibe.',
+    url: 'https://adk-adgen.vercel.app/',
+    image: '/vibe.png',
+    achievement: 'Google Hackathon Finalist',
+  },
+  {
     name: 'Athledger',
     description:
       'Blockchain-powered platform that empowers athletes to securely store, manage, and monetize their performance data.',
