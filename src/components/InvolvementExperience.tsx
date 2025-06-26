@@ -41,11 +41,11 @@ function InvolvementExperienceListItem({
             {item.period}
           </div>
         </div>
-
-        {!isLast && (
-          <div className="border-b border-dashed border-purple-300"></div>
-        )}
       </a>
+
+      {!isLast && (
+        <div className="border-b border-dashed border-purple-300"></div>
+      )}
     </motion.div>
   );
 }
