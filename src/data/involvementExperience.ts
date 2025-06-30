@@ -51,7 +51,7 @@ export const involvementExperience: InvolvementExperienceItem[] = [
   },
   {
     involvement: 'Linguistics Olympiad',
-    role: '2x National Camp Finalist',
+    role: '2x Camp Finalist (Top 20 Nationwide)',
     period: '2022 - 23',
     logo: '/iol.png',
     link: 'https://ioling.org/',
