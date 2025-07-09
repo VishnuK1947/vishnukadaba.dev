@@ -21,7 +21,7 @@ export function Bio() {
         >
           Computer Engineering and Computer Science
         </a>{' '}
-        at USC on the Trustee Scholarship.
+        at USC on a Trustee (Full) Scholarship.
       </p>
 
       <p className="text-[1.07rem]">
