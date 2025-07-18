@@ -8,6 +8,13 @@ export interface InvolvementExperienceItem {
 
 export const involvementExperience: InvolvementExperienceItem[] = [
   {
+    involvement: 'Anthropic',
+    role: 'Claude Builder Program',
+    period: '2025',
+    logo: '/anthropic.png',
+    link: 'https://www.anthropic.com/',
+  },
+  {
     involvement: 'Y Combinator',
     role: 'AI Startup School',
     period: '2025',
