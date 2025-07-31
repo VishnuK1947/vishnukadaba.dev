@@ -37,7 +37,7 @@ export const workExperience: WorkExperienceItem[] = [
   },
   {
     company: 'Ushur',
-    role: 'Data Science & Engineering, AI Labs',
+    role: 'Engineering, AI Labs',
     period: '2024',
     logo: '/ushur.png',
     link: 'https://www.ushur.com/',
