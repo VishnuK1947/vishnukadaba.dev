@@ -10,7 +10,7 @@ export const workExperience: WorkExperienceItem[] = [
   {
     company: 'Expedia Group',
     role: 'Engineering, Machine Learning',
-    period: '2025 -  Present',
+    period: '2025',
     logo: '/expedia-logo.png',
     link: 'https://www.expediagroup.com/',
   },
