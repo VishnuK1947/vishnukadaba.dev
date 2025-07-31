@@ -44,7 +44,7 @@ export const workExperience: WorkExperienceItem[] = [
   },
   {
     company: 'RTWO Solutions',
-    role: 'Engineering',
+    role: 'Engineering, Embedded Systems',
     period: '2021 - 22',
     logo: '/rtwo.png',
     link: 'https://www.rtwohealthcare.com/',
