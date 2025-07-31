@@ -30,7 +30,7 @@ export const workExperience: WorkExperienceItem[] = [
   },
   {
     company: 'TRBHI',
-    role: 'Engineering, Full-Stack',
+    role: 'Engineering, Applied AI',
     period: '2024',
     logo: '/trbhi.png',
     link: 'https://trbhi.com/',
