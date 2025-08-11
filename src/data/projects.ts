@@ -72,6 +72,14 @@ export const projects: Project[] = [
     achievement: '100+ active users',
   },
   {
+    name: 'Fleet Commander',
+    description:
+      'Live observable, replayable deployment orchestration through multi-agent systems with universal logging for debugging and compliance.',
+    url: 'https://www.loom.com/share/862d49bd4d85453b9385c11c0c5c977b?sid=a57307e6-e708-4d4c-80bb-15cf66ce3934',
+    image: '/fleet-commander.png',
+    achievement: 'Agentic AI Hackathon Finalist',
+  },
+  {
     name: 'Vibe',
     description:
       'Vibe provides end-to-end, multi-agent ad generation. From market research to studio-quality video, capture your audience\'s vibe.',
