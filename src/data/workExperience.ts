@@ -9,7 +9,7 @@ export interface WorkExperienceItem {
 export const workExperience: WorkExperienceItem[] = [
   {
     company: 'Expedia Group',
-    role: 'Engineering, Machine Learning',
+    role: 'Engineering, Applied AI & ML',
     period: '2025',
     logo: '/expedia-logo.png',
     link: 'https://www.expediagroup.com/',
