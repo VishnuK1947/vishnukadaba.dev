@@ -42,11 +42,4 @@ export const workExperience: WorkExperienceItem[] = [
     logo: '/ushur.png',
     link: 'https://www.ushur.com/',
   },
-  {
-    company: 'RTWO Solutions',
-    role: 'Engineering, Embedded Systems',
-    period: '2021 - 22',
-    logo: '/rtwo.png',
-    link: 'https://www.rtwohealthcare.com/',
-  },
 ];
