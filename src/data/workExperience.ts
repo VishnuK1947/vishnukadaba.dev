@@ -8,6 +8,13 @@ export interface WorkExperienceItem {
 
 export const workExperience: WorkExperienceItem[] = [
   {
+    company: 'Lemma (YC)',
+    role: 'Founding Engineer',
+    period: '2025',
+    logo: '/lemma.png',
+    link: 'https://www.uselemma.ai/',
+  },
+  {
     company: 'Expedia Group',
     role: 'Engineering, Applied AI & ML',
     period: '2025',
@@ -20,13 +27,6 @@ export const workExperience: WorkExperienceItem[] = [
     period: '2024 - 25',
     logo: '/vellum.png',
     link: 'https://www.vellum.ai/',
-  },
-  {
-    company: 'USC ECE Department',
-    role: 'Machine Learning',
-    period: '2024 - 25',
-    logo: '/usc.png',
-    link: 'https://minghsiehece.usc.edu/',
   },
   {
     company: 'TRBHI',
