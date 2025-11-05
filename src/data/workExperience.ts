@@ -10,7 +10,7 @@ export const workExperience: WorkExperienceItem[] = [
   {
     company: 'Lemma (YC)',
     role: 'Founding Engineer',
-    period: '2025',
+    period: '2025 - Present',
     logo: '/lemma.png',
     link: 'https://www.uselemma.ai/',
   },
