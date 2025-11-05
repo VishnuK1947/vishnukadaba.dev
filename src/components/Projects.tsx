@@ -149,7 +149,7 @@ export function Projects() {
                       {project.achievement}
                     </span>
                   )}
-                  <p className="text-xs text-muted-foreground leading-relaxed line-clamp-5 font-manrope">
+                  <p className="text-xs text-muted-foreground leading-relaxed line-clamp-5 font-manrope lowercase">
                     {project.description}
                   </p>
                 </div>

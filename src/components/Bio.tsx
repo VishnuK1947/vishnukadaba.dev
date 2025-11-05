@@ -4,12 +4,12 @@ import { fadeIn } from '../data/animations';
 export function Bio() {
   return (
     <motion.div
-      className="space-y-8 pb-12 pt-16 text-left font-manrope"
+      className="space-y-8 pb-12 pt-16 text-left font-manrope lowercase"
       variants={fadeIn}
       initial="hidden"
       animate="visible"
     >
-      <p className="text-[1.07rem]">
+      <p className="text-sm md:text-base">
         I'm a Software Engineer and Patented ML Researcher based in Los Angeles
         specializing in full-stack, applied AI, MLE workflows, and
         Entrepreneurship. I study{' '}
@@ -24,8 +24,17 @@ export function Bio() {
         at USC on a Trustee (Full) Scholarship.
       </p>
 
-      <p className="text-[1.07rem]">
-        I lead Actives' Development and Build Sprints at{' '}
+      <p className="text-sm md:text-base">
+        I currently do cool AI stuff at{' '}
+        <a
+          href="https://www.uselemma.ai/"
+          className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Lemma (YC)
+        </a>{' '}
+        and lead Actives' Development + Build Sprints at{' '}
         <a
           href="https://uscsep.com/"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
@@ -33,9 +42,8 @@ export function Bio() {
           rel="noopener noreferrer"
         >
           USC's flagship startup incubator
-        </a>{' '}
-        and build ML models for Neuroscience research. I have attended and won
-        at hackathons like the{' '}
+        </a>
+        . I have attended and won at hackathons like {' '}
         <a
           href="https://www.anthropic.com/"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
@@ -44,7 +52,7 @@ export function Bio() {
         >
           Anthropic
         </a>{' '}
-        Hackathon (1st place),{' '}
+        (1st place),{' '}
         <a
           href="https://www.llamastackchallenge.com/"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
@@ -53,7 +61,7 @@ export function Bio() {
         >
           8VC x Llama
         </a>{' '}
-        Hackathon (1st Place),{' '}
+        (1st Place), &{' '}
         <a
           href="https://hackmit.org/"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
@@ -62,16 +70,7 @@ export function Bio() {
         >
           HackMIT
         </a>{' '}
-        (Education Track 1st Place),{' '}
-        <a
-          href="https://lahacks.com/"
-          className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LAHacks
-        </a>{' '}
-        (MLH Winner). I have also built startups like{' '}
+        (Education Track 1st Place). I have also built startups like{' '}
         <a
           href="https://useideavine.com/"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
@@ -93,7 +92,7 @@ export function Bio() {
         Automation).
       </p>
 
-      <p className="text-[1.07rem]">
+      <p className="text-sm md:text-base">
         Reach out to me at{' '}
         <a
           href="mailto:vkadaba@usc.edu"

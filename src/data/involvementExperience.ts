@@ -15,13 +15,6 @@ export const involvementExperience: InvolvementExperienceItem[] = [
     link: 'https://www.anthropic.com/',
   },
   {
-    involvement: 'Y Combinator',
-    role: 'AI Startup School',
-    period: '2025',
-    logo: '/yc.png',
-    link: 'https://www.ycombinator.com/',
-  },
-  {
     involvement: 'Kleiner Perkins',
     role: 'Finalist',
     period: '2025',
