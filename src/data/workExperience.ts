@@ -12,7 +12,7 @@ export const workExperience: WorkExperienceItem[] = [
     role: 'Engineering, Applied AI & ML',
     period: '2025',
     logo: '/expedia-logo.png',
-    link: 'https://www.expediagroup.com/',
+    link: 'https://www.expedia.com/',
   },
   {
     company: 'Vellum',
