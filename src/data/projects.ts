@@ -103,12 +103,4 @@ export const projects: Project[] = [
     image: '/cnn.png',
     achievement: 'Patented',
   },
-  {
-    name: 'Detection & Optimization of Fungal Inhibitor',
-    description:
-      'Published the discovery and optimization of inhibitor with 104% increase in binding affinity for crown rust fungus in oats.',
-    url: 'https://drive.google.com/file/d/1y-cwfPUNHQzznJoY_ijvxsxk1Ebf7IR2/view?usp=sharing',
-    image: '/fungal_inhibitor.png',
-    achievement: "Won 'Best Inhibitor Design'",
-  },
 ];
