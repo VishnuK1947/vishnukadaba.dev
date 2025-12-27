@@ -8,7 +8,7 @@ export interface WorkExperienceItem {
 
 export const workExperience: WorkExperienceItem[] = [
   {
-    company: 'Lemma (YC)',
+    company: 'Lemma',
     role: 'Engineering, AI Platform',
     period: '2025 - Present',
     logo: '/lemma.png',
