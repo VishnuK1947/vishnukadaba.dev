@@ -25,16 +25,7 @@ export function Bio() {
       </p>
 
       <p className="text-sm md:text-base">
-        I currently do cool AI stuff at{' '}
-        <a
-          href="https://www.uselemma.ai/"
-          className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Lemma (YC)
-        </a>{' '}
-        and lead Actives' Development + Build Sprints at{' '}
+        I currently lead Actives' Development + Build Sprints at{' '}
         <a
           href="https://uscsep.com/"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
