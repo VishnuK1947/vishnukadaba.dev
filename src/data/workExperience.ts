@@ -8,6 +8,13 @@ export interface WorkExperienceItem {
 
 export const workExperience: WorkExperienceItem[] = [
   {
+    company: 'Google',
+    role: 'Engineering, Applied AI + Search',
+    period: 'Incoming Summer 2026',
+    logo: '/google.png',
+    link: 'https://www.google.com/',
+  },
+  {
     company: 'Lemma',
     role: 'Engineering (Early Stage)',
     period: '2025 - Present',
