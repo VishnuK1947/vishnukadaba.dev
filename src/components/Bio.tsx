@@ -10,7 +10,7 @@ export function Bio() {
       animate="visible"
     >
       <p className="text-sm md:text-base">
-        I'm a Software Engineer and Patented ML Researcher based in Los Angeles
+        I'm a Software Engineer and Patented ML Researcher based in LA 
         specializing in full-stack, applied AI, MLE workflows, and
         Entrepreneurship. I study{' '}
         <a
@@ -21,11 +21,11 @@ export function Bio() {
         >
           Computer Engineering and Computer Science
         </a>{' '}
-        at USC on a Trustee (Full) Scholarship.
+        at USC on a Trustee (Full) Scholarship and currently work at Google on AI Mode.
       </p>
 
       <p className="text-sm md:text-base">
-        I currently lead Actives' Development + Build Sprints at{' '}
+        I led Actives' Development + Build Sprints at{' '}
         <a
           href="https://uscsep.com/"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
