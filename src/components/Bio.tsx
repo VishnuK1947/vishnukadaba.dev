@@ -23,7 +23,7 @@ export function Bio() {
         </a>{' '}
         at USC on a Trustee (Full) Scholarship and currently work at Google on {' '}
         <a
-          href="https://www.cs.usc.edu/academic-programs/undergrad/computer-engineering-and-computer-science/"
+          href="https:/google.com/ai"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
           target="_blank"
           rel="noopener noreferrer"
