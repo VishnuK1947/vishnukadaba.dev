@@ -10,9 +10,7 @@ export function Bio() {
       animate="visible"
     >
       <p className="text-sm md:text-base">
-        I'm a Software Engineer and Patented ML Researcher based in LA 
-        specializing in full-stack, applied AI, MLE workflows, and
-        Entrepreneurship. I study{' '}
+        I'm a SWE based in LA studying{' '}
         <a
           href="https://www.cs.usc.edu/academic-programs/undergrad/computer-engineering-and-computer-science/"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
@@ -21,7 +19,7 @@ export function Bio() {
         >
           Computer Engineering and Computer Science
         </a>{' '}
-        at USC on a Trustee (Full) Scholarship and currently work at Google on {' '}
+        at USC on a full scholarship. I'm grateful to be building for millions of users on {' '}
         <a
           href="https://www.google.com/ai"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
@@ -29,56 +27,13 @@ export function Bio() {
           rel="noopener noreferrer"
         >
           AI Mode
-        </a>{' '}.
-      </p>
-
-      <p className="text-sm md:text-base">
-        I led Actives' Development + Build Sprints at{' '}
+        </a>{' '}at Google currently. I've also worked at {' '}
         <a
-          href="https://uscsep.com/"
+          href="https://www.uselemma.ai/"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          USC's flagship startup incubator
-        </a>
-        . I have attended and won at hackathons like {' '}
-        <a
-          href="https://www.anthropic.com/"
-          className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Anthropic
-        </a>{' '}
-        (1st place),{' '}
-        <a
-          href="https://www.llamastackchallenge.com/"
-          className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          8VC x Llama
-        </a>{' '}
-        (1st Place), &{' '}
-        <a
-          href="https://hackmit.org/"
-          className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HackMIT
-        </a>{' '}
-        (Education Track 1st Place). I have also built startups like{' '}
-        <a
-          href="https://useideavine.com/"
-          className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          IdeaVine
-        </a>{' '}
-        (AI Mindmapping),{' '}
+        >Lemma</a>{' '}(YC F25) as a Founding Engineer and built products like{' '}
         <a
           href="https://usevector.app/"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
@@ -86,9 +41,15 @@ export function Bio() {
           rel="noopener noreferrer"
         >
           Vector
-        </a>{' '}
-        (AI Action-Copilot for In-App Support), and Handover (Code Documentation
-        Automation).
+        </a>{' '} and{' '}
+        <a
+          href="https://useideavine.com/"
+          className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          IdeaVine
+        </a>{' '}for thousands of users. 
       </p>
 
       <p className="text-sm md:text-base">
