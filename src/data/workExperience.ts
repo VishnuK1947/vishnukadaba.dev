@@ -24,7 +24,7 @@ export const workExperience: WorkExperienceItem[] = [
   {
     company: 'Expedia Group',
     role: 'Engineering, Applied AI & ML',
-    period: '2025',
+    period: 'Summer 2025',
     logo: '/expedia-logo.png',
     link: 'https://www.expedia.com/',
   },
@@ -45,7 +45,7 @@ export const workExperience: WorkExperienceItem[] = [
   {
     company: 'Ushur',
     role: 'Engineering, AI Labs',
-    period: '2024',
+    period: 'Summer 2024',
     logo: '/ushur.png',
     link: 'https://www.ushur.com/',
   },
