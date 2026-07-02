@@ -8,6 +8,13 @@ export interface InvolvementExperienceItem {
 
 export const involvementExperience: InvolvementExperienceItem[] = [
   {
+    involvement: 'GSSC',
+    role: 'International Competitor (USC rep)',
+    period: '2025',
+    logo: '/gssc.png',
+    link: 'https://globalstudentstartup.org/',
+  },
+  {
     involvement: 'Anthropic',
     role: 'Claude Builder Program',
     period: '2025',
