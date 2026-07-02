@@ -10,7 +10,7 @@ export const involvementExperience: InvolvementExperienceItem[] = [
   {
     involvement: 'GSSC',
     role: 'International Competitor (USC rep)',
-    period: '2025',
+    period: '2026',
     logo: '/gssc.png',
     link: 'https://globalstudentstartup.org/',
   },
