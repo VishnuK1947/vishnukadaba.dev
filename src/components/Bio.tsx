@@ -35,7 +35,7 @@ export function Bio() {
           rel="noopener noreferrer"
         >Lemma</a>{' '}(YC F25) as a Founding Engineer and built products like{' '}
         <a
-          href="https://usevector.app/"
+          href="https://usevector.vercel.app/"
           className="border-b-2 border-dotted border-purple-300 hover:border-purple-400 transition-colors"
           target="_blank"
           rel="noopener noreferrer"

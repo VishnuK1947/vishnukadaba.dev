@@ -27,7 +27,7 @@ export const projects: Project[] = [
     name: 'Vector',
     description:
       'AI Action-Copilot for In-App Support, enabling users to get instant help and support within applications.',
-    url: 'https://usevector.app',
+    url: 'https://usevector.vercel.app',
     image: '/vector.png',
     achievement: 'Lavalab Demo Day Winner',
   },
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     name: 'Folio',
     description:
       'Automatically copy expert trades with verified performance. Folio is an ecosystem that rewards both investors and copy traders.',
-    url: 'https://runfolio.com/',
+    url: 'https://runfolio.vercel.app/',
     image: '/folio.png',
     achievement: '100+ active users',
   },
