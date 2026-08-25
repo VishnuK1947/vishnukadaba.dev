@@ -14,7 +14,7 @@ export function Bio() {
       </motion.p>
 
       <motion.p variants={fadeIn} className="text-sm md:text-base">
-        I'm grateful to have worked at Google on{' '}
+        I'm grateful to have worked on{' '}
         <a
           href="https://www.google.com/ai"
           className="border-b-2 border-dotted border-[#120315] hover:border-[#120315] transition-colors"
@@ -22,7 +22,7 @@ export function Bio() {
           rel="noopener noreferrer"
         >
           AI Mode
-        </a>{' '}, {' '}
+        </a>{' '}at Google and at{' '}
         <a
           href="https://www.uselemma.ai/"
           className="border-b-2 border-dotted border-[#120315] hover:border-[#120315] transition-colors"
@@ -75,16 +75,8 @@ export function Bio() {
       </motion.p>
 
       <motion.p variants={fadeIn} className="text-sm md:text-base">
-        Reach out to me at{' '}
-        <a
-          href="mailto:vkadaba@usc.edu"
-          className="border-b-2 border-dotted border-[#120315] hover:border-[#120315] transition-colors"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          vkadaba@usc.edu
-        </a>{' '}
-        if you want to collaborate on something exciting!
+        My mission is to build things that deeply impact millions of people,
+        bringing the world forward and closer.
       </motion.p>
     </motion.div>
   );
