@@ -61,14 +61,20 @@ export default function App() {
               <Projects />
             </motion.section>
           </div>
-          <footer className="mx-auto max-w-2xl px-5 pb-8 text-center font-manrope text-xs text-gray-500">
+          <motion.footer
+            className="mx-auto max-w-2xl px-5 pb-8 text-center font-manrope text-xs text-gray-500"
+            variants={fadeIn}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+          >
             <a
               href="/llms.txt"
               className="border-b border-dotted border-[#120315] transition-opacity hover:opacity-60"
             >
               for agents
             </a>
-          </footer>
+          </motion.footer>
         </>
       )}
       <Analytics />
