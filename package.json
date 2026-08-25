@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
-    "@types/three": "^0.176.0",
     "@vercel/analytics": "^1.4.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -23,8 +22,7 @@
     "react-dom": "^18.3.1",
     "repomix": "^0.3.7",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7",
-    "three": "^0.176.0"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

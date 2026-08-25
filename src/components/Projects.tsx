@@ -124,7 +124,7 @@ export function Projects() {
                 href={project.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative flex h-full flex-col overflow-hidden rounded-lg border border-purple-300 bg-card/40 backdrop-blur-sm transition-all duration-300 hover:bg-card/60 hover:border-purple-400"
+                className="group relative flex h-full flex-col overflow-hidden rounded-lg border border-[#120315] bg-card/40 backdrop-blur-sm transition-all duration-300 hover:bg-card/60 hover:border-[#120315]"
               >
                 <div className="aspect-[13/8] overflow-hidden">
                   <img
@@ -143,7 +143,7 @@ export function Projects() {
                   </div>
                   {project.achievement && (
                     <span
-                      className="rounded-md bg-orange-500/10 border border-orange-500/20 px-2 py-0.5 text-xs font-medium text-orange-600 dark:text-orange-400 font-manrope"
+                      className="rounded-md bg-orange-500/10 border border-orange-500/20 px-2 py-0.5 text-xs font-medium text-orange-600 font-manrope"
                       style={{ width: 'fit-content' }}
                     >
                       {project.achievement}

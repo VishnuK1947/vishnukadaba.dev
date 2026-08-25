@@ -42,7 +42,7 @@ function WorkExperienceListItem({
       </a>
 
       {!isLast && (
-        <div className="border-b border-dashed border-purple-300"></div>
+        <div className="border-b border-dashed border-[#120315]"></div>
       )}
     </motion.div>
   );

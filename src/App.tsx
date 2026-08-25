@@ -1,9 +1,7 @@
-import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Analytics } from '@vercel/analytics/react';
 import { fadeIn } from './data/animations';
 import {
-  ThreeBackground,
   Navbar,
   Bio,
   WorkExperience,
@@ -12,32 +10,14 @@ import {
 } from './components';
 
 export default function App() {
-  const [theme, setTheme] = useState(() => {
-    if (typeof window !== 'undefined') {
-      return localStorage.getItem('theme') || 'light';
-    }
-    return 'light';
-  });
-
-  useEffect(() => {
-    const root = window.document.documentElement;
-    if (theme === 'dark') {
-      root.classList.add('dark');
-    } else {
-      root.classList.remove('dark');
-    }
-    localStorage.setItem('theme', theme);
-  }, [theme]);
-
   return (
     <div className="min-h-screen antialiased">
-      <ThreeBackground theme={theme as 'light' | 'dark'} />
-
-      <Navbar theme={theme} setTheme={setTheme} />
-      <main className="mx-auto max-w-2xl px-4 pt-24 md:px-0">
+      <Navbar />
+      <main className="mx-auto max-w-2xl px-5 pt-24">
         <motion.section
           id="about"
           variants={fadeIn}
+          custom={0.25}
           initial="hidden"
           animate="visible"
         >
@@ -46,6 +26,7 @@ export default function App() {
         <motion.section
           id="work"
           variants={fadeIn}
+          custom={0.34}
           initial="hidden"
           animate="visible"
         >
@@ -54,6 +35,7 @@ export default function App() {
         <motion.section
           id="involvements"
           variants={fadeIn}
+          custom={0.43}
           initial="hidden"
           animate="visible"
         >
@@ -65,6 +47,7 @@ export default function App() {
           id="projects"
           className="pt-8"
           variants={fadeIn}
+          custom={0.52}
           initial="hidden"
           animate="visible"
         >

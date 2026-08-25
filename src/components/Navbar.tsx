@@ -1,13 +1,9 @@
 import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 import { socialLinks } from '../data/socialLinks';
-import { ThemeToggle } from './ThemeToggle';
+import { fadeIn } from '../data/animations';
 
-interface NavbarProps {
-  theme: string;
-  setTheme: (theme: string) => void;
-}
-
-export function Navbar({ theme, setTheme }: NavbarProps) {
+export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -19,17 +15,17 @@ export function Navbar({ theme, setTheme }: NavbarProps) {
   }, []);
 
   return (
-    <nav
+    <motion.nav
+      variants={fadeIn}
+      custom={0.16}
+      initial="hidden"
+      animate="visible"
       className={`fixed left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? theme === 'dark'
-            ? 'py-4 bg-black'
-            : 'py-4 bg-[hsl(263_50%_87.5%)]'
-          : 'py-16'
+        scrolled ? 'bg-white py-4' : 'py-16'
       }`}
     >
-      <div className="mx-auto flex max-w-2xl items-center justify-between px-0">
-        <h1 className="text-4xl font-bold font-orbitron">Vishnu Kadaba</h1>
+      <div className="mx-auto flex max-w-2xl items-center justify-between px-5">
+        <h1 className="text-3xl font-bold tracking-normal font-manrope">Vishnu Kadaba</h1>
         <div className="flex items-center gap-2">
           {socialLinks.map(link => (
             <button
@@ -42,9 +38,8 @@ export function Navbar({ theme, setTheme }: NavbarProps) {
               </a>
             </button>
           ))}
-          <ThemeToggle theme={theme} setTheme={setTheme} />
         </div>
       </div>
-    </nav>
+    </motion.nav>
   );
 }
