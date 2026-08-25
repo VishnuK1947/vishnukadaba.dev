@@ -64,6 +64,14 @@ export const projects: Project[] = [
     achievement: 'LAHacks Winner',
   },
   {
+    name: 'NightShift',
+    description:
+      'Autonomous coding agent that builds, tests, and verifies full-stack changes in isolated sandboxes, then opens a pull request.',
+    url: 'https://www.youtube.com/watch?v=CyjmEA6L1G0',
+    image: '/nightshift.png',
+    achievement: 'YC Hackathon',
+  },
+  {
     name: 'Folio',
     description:
       'Automatically copy expert trades with verified performance. Folio is an ecosystem that rewards both investors and copy traders.',

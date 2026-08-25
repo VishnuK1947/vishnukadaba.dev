@@ -96,6 +96,11 @@ URL: https://www.youtube.com/watch?v=Exxy5Efu1_k
 An on-screen AI focus companion that uses visual context, schedules, and task lists to help users stay on track.
 URL: https://www.youtube.com/watch?v=wMT5xClvbP8
 
+### NightShift [YC Hackathon]
+
+Autonomous coding agent that builds, tests, and verifies full-stack changes in isolated sandboxes, then opens a pull request.
+URL: https://www.youtube.com/watch?v=CyjmEA6L1G0
+
 ### Folio [100+ Active Users]
 
 A copy-trading platform for following expert investors with verified performance while rewarding investors and strategy creators.
