@@ -14,7 +14,7 @@ export function Bio() {
       </motion.p>
 
       <motion.p variants={fadeIn} className="text-sm md:text-base">
-        I'm grateful to have worked on{' '}
+        I've worked on{' '}
         <a
           href="https://www.google.com/ai"
           className="border-b-2 border-dotted border-[#120315] hover:border-[#120315] transition-colors"
