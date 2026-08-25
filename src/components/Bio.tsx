@@ -76,7 +76,7 @@ export function Bio() {
 
       <motion.p variants={fadeIn} className="text-sm md:text-base">
         My mission is to build things that deeply impact millions of people,
-        bringing the world forward and closer.
+        bringing the world closer and forward.
       </motion.p>
     </motion.div>
   );
