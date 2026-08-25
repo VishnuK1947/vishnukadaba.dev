@@ -3,3 +3,4 @@ export { Bio } from './Bio';
 export { WorkExperience } from './WorkExperience';
 export { InvolvementExperience } from './InvolvementExperience';
 export { Projects } from './Projects';
+export { NotFound } from './NotFound';

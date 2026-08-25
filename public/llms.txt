@@ -1,0 +1,136 @@
+# Vishnu Kadaba
+
+> Vishnu Kadaba's personal website
+
+## About
+
+Vishnu Kadaba is a software engineer based in Los Angeles studying computer science and computer engineering at the University of Southern California on a full scholarship.
+
+He builds applied AI, machine learning, and full-stack products, with experience spanning AI agents, large language models, model evaluation, observability, retrieval systems, data infrastructure, and cloud engineering.
+
+His projects include developer tools, in-application automation, multimodal collaboration software, computer vision systems, and multi-agent platforms recognized at national hackathons and startup programs.
+
+## Contact
+
+- Email: vkadaba@usc.edu
+- Website: https://vishnukadaba.dev
+- GitHub: https://github.com/VishnuK1947
+- LinkedIn: https://www.linkedin.com/in/vishnu-swarup-kadaba
+
+## Experience
+
+### Google - Engineering, AI Mode (Summer 2026)
+
+Google AI Mode is an AI-powered Search experience for complex questions, multimodal inputs, follow-ups, and web-grounded answers. Vishnu worked on personalized finance and credit-card experiences within Google AI Mode.
+
+### Lemma - Founding Engineer, Platform + AI (2025 - 2026)
+
+Lemma provides production monitoring and observability for AI agents by capturing structured traces across model calls, tools, retrieval, and application logic. Its platform detects recurring failures, supports debugging and incident analysis, and turns resolved issues into continuous online evaluations. Vishnu contributed to agent observability, evaluation infrastructure, distributed tracing, and platform reliability as a founding engineer.
+
+### Expedia Group - Engineering, Applied AI & ML (Summer 2025)
+
+Expedia Group operates a global travel marketplace connecting travelers, partners, and advertisers through brands including Expedia, Hotels.com, and Vrbo. Its technology platform applies travel data and artificial intelligence to support personalized discovery, booking, advertising, and partner services. Vishnu worked on applied AI, machine learning, model evaluation, and advertising decision systems.
+
+### Vellum - Engineering, Applied AI (2024 - 2025)
+
+Vellum builds a persistent personal AI assistant that can remember context and perform actions across email, calendars, browsers, files, and business tools. The assistant works across web, desktop, mobile, messaging, and terminal interfaces with user-controlled permissions. Vishnu contributed applied AI engineering across document ingestion, retrieval, caching, and customer-support workflows.
+
+### TRBHI - Engineering, Applied AI (2024)
+
+TRBHI is a technology services company specializing in digital transformation, cloud engineering, platform engineering, artificial intelligence, and custom software development. It designs, implements, and maintains business systems for clients, including solutions in regulated industries such as healthcare. Vishnu developed scalable, retrieval-augmented public-information experiences in cloud environments.
+
+### Ushur - Engineering, AI Labs (Summer 2024)
+
+Ushur provides an enterprise agentic AI platform for automating customer experiences across healthcare, insurance, and financial services. Its governed AI agents support compliant inbound and outbound engagement across SMS, email, voice, and web channels. Vishnu worked in AI Labs on enterprise conversational AI and customer experience automation.
+
+## Involvements
+
+- [Global Student Startup Competition](https://globalstudentstartup.org/) - International Competitor, USC representative (2026)
+- [Anthropic](https://www.anthropic.com/) - Claude Builder Program (2025)
+- [Kleiner Perkins](https://www.kleinerperkins.com/) - Finalist (2025)
+- [8VC](https://www.8vc.com/) - Finalist (2025)
+- [USC LavaLab](https://usclavalab.org/) - Engineering (2025)
+- [USC Startup Entrepreneurship Program](https://uscsep.com/) - Engineering and Vice President (2024 - Present)
+- [USC Ming Hsieh Department of Electrical and Computer Engineering](https://minghsiehece.usc.edu/) - Machine Learning (2024 - 2025)
+- [USC International Student Leadership Program](https://www.usilusc.org/) - Director of Events and Membership (2023 - 2025)
+- [Scope USC](https://www.scopeusc.com/) - Engineering (2024)
+- [Linguistics Olympiad](https://ioling.org/) - Two-time Camp Finalist, Top 20 Nationwide (2022 - 2023)
+- [Indian Institute of Science](https://iisc.ac.in/) - KVPY EML Scholar (2023)
+- [Summer Science Program](https://ssp.org/) - Student Researcher (2022)
+- [National Talent Search Examination](https://www.indiascienceandtechnology.gov.in/nurturing-minds/scholarships/school/national-talent-search-exam-ntse) - Scholar (2022)
+
+## Projects
+
+### Cortex [Anthropic Hackathon 1st Place]
+
+A secure multi-agent reasoning and action engine that dynamically launches task-based agents in parallel to complete complex work.
+URL: https://devpost.com/software/claude-cortex
+
+### Intervene [8VC x Llama Hackathon 1st Place]
+
+An operating-system-level AI agent that autonomously completes tasks and automates background workflows.
+URL: https://intervene-smoky.vercel.app
+
+### Vector [LavaLab Demo Day Winner]
+
+An AI action copilot for in-application support that helps users complete workflows directly within software products.
+URL: https://usevector.vercel.app
+
+### IdeaVine [1,000+ Active Users]
+
+A multimodal mind-mapping platform for free-form ideation, structured thinking, voice input, and real-time collaboration.
+URL: https://useideavine.com
+
+### Handover [SEP Demo Day Winner]
+
+An AI-powered code documentation tool that generates comprehensive codebase documentation for maintainability and engineering collaboration.
+URL: https://www.linkedin.com/company/stealth-startup-careers/posts/?feedView=all
+
+### PalmLabs [HackMIT Education Track 1st Place]
+
+A browser-based computer vision learning environment for American Sign Language, available as a Chrome extension and web application.
+URL: https://www.youtube.com/watch?v=Exxy5Efu1_k
+
+### Capyble [LA Hacks Winner]
+
+An on-screen AI focus companion that uses visual context, schedules, and task lists to help users stay on track.
+URL: https://www.youtube.com/watch?v=wMT5xClvbP8
+
+### Folio [100+ Active Users]
+
+A copy-trading platform for following expert investors with verified performance while rewarding investors and strategy creators.
+URL: https://runfolio.vercel.app
+
+### Fleet Commander [Agentic AI Hackathon Finalist]
+
+A live, observable, and replayable deployment orchestration system using multiple agents and universal logging for debugging and compliance.
+URL: https://www.loom.com/share/862d49bd4d85453b9385c11c0c5c977b?sid=a57307e6-e708-4d4c-80bb-15cf66ce3934
+
+### Vibe [Google Hackathon Finalist]
+
+An end-to-end multi-agent advertising system spanning market research, creative strategy, and studio-quality video generation.
+URL: https://adk-adgen.vercel.app
+
+### Athledger [HackSC Blockchain Finalist]
+
+A blockchain-powered platform for athletes to securely store, manage, and monetize their performance data.
+URL: https://www.youtube.com/watch?v=qeJAKmePK7s
+
+### Machine Learning for Cheiloscopic Analysis [Patented]
+
+A convolutional neural network for estimating age and gender through cheiloscopic lip-pattern classification.
+URL: https://github.com/VishnuK1947
+
+## Skills
+
+- Languages: Python, TypeScript, JavaScript, C, C++, C#, Java, SQL, Go, Bash, Swift, and HTML
+- AI and machine learning: Large language models, AI agents, generative AI, natural language processing, retrieval-augmented generation, model evaluation, PyTorch, TensorFlow, LangChain, scikit-learn, Pandas, and NumPy
+- Backend and data: Node.js, FastAPI, Flask, REST APIs, PostgreSQL, Redis, MongoDB, Pinecone, Supabase, data pipelines, distributed systems, and OpenTelemetry
+- Frontend: React, Tailwind CSS, and full-stack product engineering
+- Cloud and infrastructure: AWS, Azure, Google Cloud, Docker, Kubernetes, Databricks, MLflow, Linux, Git, and Vercel
+
+## Education
+
+### University of Southern California - Computer Science and Computer Engineering (Expected May 2027)
+
+Undergraduate and graduate study in computer science and computer engineering. Academic areas include natural language processing, advanced algorithms, data structures, distributed systems, operating systems, databases, machine learning, information retrieval, and statistics.
