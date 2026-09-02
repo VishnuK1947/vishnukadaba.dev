@@ -42,9 +42,9 @@ export default function App() {
             <motion.section
               id="involvements"
               variants={fadeIn}
-              custom={0.43}
               initial="hidden"
-              animate="visible"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.1 }}
             >
               <InvolvementExperience />
             </motion.section>
@@ -54,9 +54,9 @@ export default function App() {
               id="projects"
               className="pt-8"
               variants={fadeIn}
-              custom={0.52}
               initial="hidden"
-              animate="visible"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.1 }}
             >
               <Projects />
             </motion.section>

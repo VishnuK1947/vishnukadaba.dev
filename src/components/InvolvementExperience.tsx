@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { fadeIn, slideIn, staggerChildren } from '../data/animations';
+import { slideIn, staggerChildren } from '../data/animations';
 import { involvementExperience, InvolvementExperienceItem } from '../data/involvementExperience';
 
 function InvolvementExperienceListItem({
@@ -52,11 +52,8 @@ function InvolvementExperienceListItem({
 
 export function InvolvementExperience() {
   return (
-    <motion.div
+    <div
       className="space-y-4 pb-16 text-left font-instrument-sans"
-      variants={fadeIn}
-      initial="hidden"
-      animate="visible"
     >
       <motion.div className="text-2xl font-normal" variants={slideIn}>
         Involvements
@@ -71,6 +68,6 @@ export function InvolvementExperience() {
           />
         ))}
       </motion.div>
-    </motion.div>
+    </div>
   );
 }

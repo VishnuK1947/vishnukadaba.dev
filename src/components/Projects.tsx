@@ -58,8 +58,6 @@ export function Projects() {
     <motion.div
       className="space-y-4"
       variants={staggerChildren}
-      initial="hidden"
-      animate="visible"
     >
       <motion.h2
         className="text-3xl font-normal font-manrope text-center"
