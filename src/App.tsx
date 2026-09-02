@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Analytics } from '@vercel/analytics/react';
 import { fadeIn } from './data/animations';
+import { useSectionReveals } from './hooks/useSectionReveals';
 import {
   Navbar,
   Bio,
@@ -12,6 +13,7 @@ import {
 
 export default function App({ pathname = '/' }: { pathname?: string }) {
   const isNotFound = pathname !== '/';
+  const revealed = useSectionReveals(!isNotFound);
 
   return (
     <div className="min-h-screen antialiased">
@@ -33,9 +35,8 @@ export default function App({ pathname = '/' }: { pathname?: string }) {
             <motion.section
               id="work"
               variants={fadeIn}
-              custom={0.34}
               initial="hidden"
-              animate="visible"
+              animate={revealed.work ? 'visible' : 'hidden'}
             >
               <WorkExperience />
             </motion.section>
@@ -43,8 +44,7 @@ export default function App({ pathname = '/' }: { pathname?: string }) {
               id="involvements"
               variants={fadeIn}
               initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.1 }}
+              animate={revealed.involvements ? 'visible' : 'hidden'}
             >
               <InvolvementExperience />
             </motion.section>
@@ -55,8 +55,7 @@ export default function App({ pathname = '/' }: { pathname?: string }) {
               className="pt-8"
               variants={fadeIn}
               initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.1 }}
+              animate={revealed.projects ? 'visible' : 'hidden'}
             >
               <Projects />
             </motion.section>
