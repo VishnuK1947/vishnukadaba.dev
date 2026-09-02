@@ -30,7 +30,7 @@ export const involvementExperience: InvolvementExperienceItem[] = [
   },
   {
     involvement: 'USC ECE Department',
-    role: 'Machine Learning',
+    role: 'ML researcher',
     period: '2024 - 25',
     logo: '/usc.png',
     link: 'https://minghsiehece.usc.edu/',
