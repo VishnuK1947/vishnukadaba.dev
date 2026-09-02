@@ -15,27 +15,6 @@ export const involvementExperience: InvolvementExperienceItem[] = [
     link: 'https://globalstudentstartup.org/',
   },
   {
-    involvement: 'Anthropic',
-    role: 'Claude Builder Program',
-    period: '2025',
-    logo: '/anthropic.png',
-    link: 'https://www.anthropic.com/',
-  },
-  {
-    involvement: 'Kleiner Perkins',
-    role: 'Finalist',
-    period: '2025',
-    logo: '/kleiner-perkins.png',
-    link: 'https://www.kleinerperkins.com/',
-  },
-  {
-    involvement: '8VC',
-    role: 'Finalist',
-    period: '2025',
-    logo: '/8vc.png',
-    link: 'https://www.8vc.com/',
-  },
-  {
     involvement: 'Lavalab',
     role: 'Engineering',
     period: '2025',
@@ -44,7 +23,7 @@ export const involvementExperience: InvolvementExperienceItem[] = [
   },
   {
     involvement: 'SEP',
-    role: 'Engineering, VP',
+    role: 'Vice President',
     period: '2024 - Present',
     logo: '/sep.png',
     link: 'https://uscsep.com/',
@@ -55,20 +34,6 @@ export const involvementExperience: InvolvementExperienceItem[] = [
     period: '2024 - 25',
     logo: '/usc.png',
     link: 'https://minghsiehece.usc.edu/',
-  },
-  {
-    involvement: 'USiL',
-    role: 'Director of Events & Membership',
-    period: '2023 - 25',
-    logo: '/usil.png',
-    link: 'https://www.usilusc.org/',
-  },
-  {
-    involvement: 'Scope',
-    role: 'Engineering',
-    period: '2024',
-    logo: '/scope.png',
-    link: 'https://www.scopeusc.com/',
   },
   {
     involvement: 'Linguistics Olympiad',
