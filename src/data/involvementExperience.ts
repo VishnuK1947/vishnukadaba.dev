@@ -8,6 +8,13 @@ export interface InvolvementExperienceItem {
 
 export const involvementExperience: InvolvementExperienceItem[] = [
   {
+    involvement: 'SEP',
+    role: 'Vice President',
+    period: '2024 - Present',
+    logo: '/sep.png',
+    link: 'https://uscsep.com/',
+  },
+  {
     involvement: 'GSSC',
     role: 'International Competitor (USC rep)',
     period: '2026',
@@ -20,13 +27,6 @@ export const involvementExperience: InvolvementExperienceItem[] = [
     period: '2025',
     logo: '/lavalab.png',
     link: 'https://usclavalab.org/',
-  },
-  {
-    involvement: 'SEP',
-    role: 'Vice President',
-    period: '2024 - Present',
-    logo: '/sep.png',
-    link: 'https://uscsep.com/',
   },
   {
     involvement: 'USC ECE Department',
