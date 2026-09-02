@@ -10,8 +10,8 @@ import {
   NotFound,
 } from './components';
 
-export default function App() {
-  const isNotFound = window.location.pathname !== '/';
+export default function App({ pathname = '/' }: { pathname?: string }) {
+  const isNotFound = pathname !== '/';
 
   return (
     <div className="min-h-screen antialiased">
@@ -61,12 +61,8 @@ export default function App() {
               <Projects />
             </motion.section>
           </div>
-          <motion.footer
+          <footer
             className="mx-auto max-w-2xl px-5 pb-8 text-center font-manrope text-xs text-gray-500"
-            variants={fadeIn}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
           >
             <a
               href="/llms.txt"
@@ -74,7 +70,7 @@ export default function App() {
             >
               for agents
             </a>
-          </motion.footer>
+          </footer>
         </>
       )}
       <Analytics />
