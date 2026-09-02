@@ -24,9 +24,9 @@ export function Navbar() {
         scrolled ? 'bg-white py-4' : 'py-16'
       }`}
     >
-      <div className="mx-auto flex max-w-2xl items-center justify-between px-5">
-        <h1 className="text-3xl font-bold tracking-normal font-manrope">Vishnu Kadaba</h1>
-        <div className="flex items-center gap-2">
+      <div className="mx-auto flex max-w-2xl items-center justify-between gap-3 px-5">
+        <h1 className="whitespace-nowrap text-xl min-[375px]:text-2xl sm:text-3xl font-bold tracking-normal font-manrope">Vishnu Kadaba</h1>
+        <div className="flex shrink-0 items-center gap-1 sm:gap-2">
           {socialLinks.map(link => (
             <button
               key={link.label}
