@@ -26,7 +26,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     icon: XIcon,
-    href: 'https://x.com/KadabaSwar98127',
+    href: 'https://x.com/vishnukadaba',
     label: 'Twitter',
   },
   {
