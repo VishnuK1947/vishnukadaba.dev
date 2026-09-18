@@ -10,8 +10,8 @@ export function Bio() {
       animate="visible"
     >
       <motion.p variants={fadeIn} className="text-sm md:text-base">
-        Based in Los Angeles. studying cecs at USC on a full scholarship. i
-        currently do research at{' '}
+        Based in Los Angeles. studying cecs at USC on a full scholarship.
+        currently, research engineering at{' '}
         <a
           href="https://interlatent.com/"
           className="border-b-2 border-dotted border-[#120315] hover:border-[#120315] transition-colors"
